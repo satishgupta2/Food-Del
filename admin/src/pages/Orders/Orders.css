@@ -36,6 +36,7 @@
         font-size: 12px;
         grid-template-columns: 0.5fr 2fr 1fr;
         padding: 15px 8px;
+        margin:10px 0px
     }
     .order-item select{
         padding: 5px;
@@ -45,4 +46,22 @@
         width: 40px;
     }
     
+}
+
+@media(max-width:750px){
+    .order-item{
+        font-size: 8px;
+        grid-template-columns: 0.3fr 1fr 0.5fr;
+        padding: 10px 6px;
+    }
+    .order-item select{
+        padding: 4px;
+        font-size: 10px;
+    }
+    .order-item img{
+        width: 25px;
+    }
+    .order-item select{
+        padding: 7px;
+    }
 }
