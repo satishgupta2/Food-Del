@@ -27,7 +27,6 @@ const Verify = () => {
   return (
     <div className='verify'>
       <div className="spinner">
-        satish
       </div>
     </div>
   )
