@@ -38,7 +38,15 @@
     max-width: max(40%,500px);
 }
 
-.place-order .cart-total{
+.place-order .cart-total button{
     margin-top: 30px;
     
+}
+
+@media (max-width:750px) {
+    .place-order{
+        display: flex;
+        flex-direction:column;
+        gap:35px;
+    }
 }
